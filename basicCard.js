@@ -4,6 +4,10 @@ funciton.BasicFlashcard(front, back) {
 
   this.front = front;
   this.back = back;
+  this.print = function(){
+    console.log(this.front);
+    console.log(this.back);
+  };
 
 };
 
